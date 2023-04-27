@@ -4,43 +4,65 @@
     <title>Index Page</title>
      <!-- CDN Link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <style>
         header{
             color: coral;
             background-color: rgb(177, 220, 185);
+            font-family: 'Sriracha', cursive;
+        }
+        #name{
+            margin-right: 30px;
+        }
+        #mob{
+            margin-right: 30px;
         }
         nav{
             text-transform: uppercase;
+        }
+        a{
+            padding-right: 40px;
+        }
+        span{
+            padding-right: 30px;
+        }
+        #follow{
+            padding-right: 30px;
         }
     </style>
     </head>
 <body>
     <header>
     <i class="fa fa-user" aria-hidden="true"></i>
-    <sapn>Pratik Thorat</sapn>&nbsp;&nbsp;
+    <sapn id="name">Pratik Thorat</sapn>
     <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <sapn>9028643727</sapn>&nbsp;&nbsp;
+    <sapn id="mob">9028643727</sapn>
     <i class="fa fa-envelope" aria-hidden="true"></i>
-    <span>pratikthorat@gmail.com</span><br>&nbsp;&nbsp;
+    <span id="email">pratikthorat@gmail.com</span><br>
     </header>
     <nav>
-        <a href="home.html" target="frame">Home</a>&nbsp;&nbsp;
-        <a href="techStack.html" target="frame">Technology</a>&nbsp;&nbsp;
-        <a href="education.html" target="frame">Education</a>&nbsp;&nbsp;
-        <a href="personal.html" target="frame">Personal</a>&nbsp;&nbsp;
-        <a href="cuntactUs.html" target="frame">Contact Me</a>&nbsp;&nbsp;
+        <a href="home.html" target="frame">Home</a>
+        <a href="techStack.html" target="frame">Technology</a>
+        <a href="education.html" target="frame">Education</a>
+        <a href="personal.html" target="frame">Personal</a>
+        <a href="cuntactUs.html" target="frame">Contact Me</a>
     </nav>
     <br>
 
-    <iframe width="600px" height="450px" name="frame" src="home.html">
+    <iframe width="600px" height="630px" name="frame" src="home.html">
 
     </iframe>
     <br> <br> 
-    <span> Follow me </span> &nbsp; &nbsp;
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;
-    <i class="fa fa-youtube" aria-hidden="true"></i>
+    <span> Follow me </span>
+    <i id="follow" class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+    <i id="follow" class="fa fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+    <i id="follow" class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+    <i id="follow" class="fa fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;
+    <i id="follow" class="fa fa-youtube" aria-hidden="true"></i>
 </body>
 </html>
+
+
+<!-- https://fonts.google.com/specimen/Sriracha -->
